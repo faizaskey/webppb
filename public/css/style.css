@@ -1,0 +1,183 @@
+.navbar {
+  background-color: #3ab1e4 !important;
+}
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-brand {
+  font-size: 18px;
+}
+@font-face {
+  font-family: "Neusa";
+  src: url("../../font/neusa.woff2");
+}
+@font-face {
+  font-family: "Gilroy-light";
+  src: url("../../font/Gilroy-Light.otf");
+}
+@font-face {
+  font-family: "Gilroy-bold";
+  src: url("../../font/Gilroy-ExtraBold.otf");
+}
+
+.top {
+  background-image: url("../../img/header/PPB UIN Header-01.png");
+  color: #007aeb;
+}
+.ptop {
+  background-image: url("../../img/Header Page/1.png");
+  background-color: #3aa7e4;
+  background-size: cover;
+  color: #fff;
+}
+.stop {
+  background-color: #3aa7e4;
+  background-image: url("../../img/Header Page/2.png");
+  background-size: cover;
+  color: #fff;
+}
+.ttop {
+  background-color: #3aa7e4;
+  background-image: url("../../img/Header Page/3.png");
+  background-size: cover;
+  color: #fff;
+}
+
+.btn1 {
+  background-color: #c4c4c4;
+  border-radius: 34px;
+  position: relative;
+  height: 50px;
+  width: 130px;
+}
+.btn1 p {
+  padding-top: 5px;
+}
+.btn1:hover {
+  background-color: #3ab1e4;
+}
+
+/*
+Removes white gap between slides - chagnge to base color of slide images
+*/
+.carousel {
+  background: #007aeb;
+}
+
+/*
+Forces image to be 100% width and not max width of 100%
+*/
+.carousel-item .img-fluid {
+  width: 100%;
+}
+
+/* 
+anchors are inline so you need ot make them block to go full width
+*/
+.carousel-item a {
+  display: block;
+  width: 100%;
+}
+
+.carousel-indicators-numbers li {
+  text-indent: 0;
+  margin: 0 2px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 100%;
+  line-height: 20px;
+  color: #fff;
+  background-color: #999;
+  transition: all 0.25s ease;
+}
+
+.service1 {
+  background: #48926a;
+  color: #c4c4c4;
+}
+
+.service2 {
+  background: #418db7;
+  background-image: url("../../img/gambar home/gambar home-02.png");
+  background-size: cover;
+  color: #c4c4c4;
+}
+
+.bag1 {
+  background-image: url("../../img/gambar home/gambar home-01.png");
+  background-size: cover;
+}
+.bag2 {
+  background-image: url("../../img/gambar home/gambar home-03.png");
+  background-size: cover;
+}
+
+.judul {
+  color: #fff;
+}
+
+.display {
+  font-size: 30px;
+}
+.profile {
+  margin-top: -50px;
+  padding-top: 100px;
+  background-color: #347193;
+  color: #fff;
+}
+.profile1 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: #27556e;
+  color: #fff;
+}
+.layanan {
+  margin-top: -32px;
+  padding-top: 100px;
+  background-color: #347193;
+  color: #fff;
+}
+
+.profile p,
+.profile1 p,
+.layanan p {
+  font-family: "Gilroy-light";
+  color: #efe4e4;
+  font-size: 3vh;
+}
+
+.profile h1,
+.profile1 h1,
+.layanan h1 {
+  font-family: "Neusa";
+}
+.profile h2,
+.layanan h4,
+.layanan h2 {
+  font-family: "Gilroy-bold";
+}
+
+footer {
+  background-color: #418db7 !important;
+  color: #fff;
+}
+.icon {
+  position: relative;
+  top: 7px;
+  bottom: 7px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: azure;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
